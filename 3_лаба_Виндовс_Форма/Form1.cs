@@ -13,7 +13,7 @@ namespace _3_лаба_Виндовс_Форма
 
         private void buttonCalculate_Click(object sender, EventArgs e)
         {
-            // Получаем значения x, y и z из TextBox'ов
+            // Получаем значения x, y и z
             if (double.TryParse(textBoxX.Text, out double x) &&
                 double.TryParse(textBoxY.Text, out double y) &&
                 double.TryParse(textBoxZ.Text, out double z))
